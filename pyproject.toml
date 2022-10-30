@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pps"
+version = "0.1.0"
+description = "Python project skeleton"
+authors = ["Daria Veselkova <daria.veselkova@yandex.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.982"
+wemake-python-styleguide = "^0.17.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
