@@ -5,3 +5,6 @@ env/
 # cache
 __pycache__/
 .mypy_cache/
+
+# secrets
+.env

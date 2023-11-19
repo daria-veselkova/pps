@@ -19,26 +19,32 @@ git remote add <repo_name>
 
 ## Dependency management
 
-Use `poetry`
+Use `poetry` (`pip install poetry`)
 
 ```bash
 poetry init
 ```
 
+Use necessary Python version
+
+```shell
+poetry env use 3.12.0
+```
+
 Activate a virtual environment with `poetry`
 
-```bash
+```shell
 poetry shell
 ```
 
-Add new packages [`-D` for dev dependencies]
+Add new packages [`--group dev` for dev dependencies]
 
-```bash
-poetry add [-D] <package_name>
+```shell
+poetry add [--group dev] <package_name>
 ```
 
 Remove a dependency
 
-```bash
+```shell
 poetry remove <package_name>
 ```
